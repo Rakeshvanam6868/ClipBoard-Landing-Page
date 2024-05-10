@@ -1,0 +1,248 @@
+/* Bai Jamjuree */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.sections{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+}
+
+.hero{
+    padding-top:140px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    gap:60px;
+    background:url("./images/bg-header-desktop.png") no-repeat;
+    background-size:100% auto;
+    width:100%;
+}
+
+.content{
+    display:flex;
+    flex-direction:column;
+    align-items:Center;
+    padding:0px 350px;
+    justify-content:Center;
+    gap:20px;
+    text-align:center;
+}
+
+.content h1{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight:600;
+    font-size:50px;
+    color:hsl(210, 10%, 33%);
+}
+
+.content p{
+    font-weight:400;
+    font-size:23px;
+    color:hsl(201, 11%, 66%);
+}
+
+.buttons{
+    margin:10px;
+    display:flex;
+    gap:30px;
+}
+
+button{
+    border:none;
+    padding:20px 40px;
+    border-radius:30px;
+    font-size:18px;
+    font-weight:600;
+    color:white;
+}
+
+.blue{
+    background-color:hsl(233, 100%, 69%);
+    box-shadow:3px 3px 10px #D9DEFF;
+}
+
+.green{
+    background-color:hsl(171, 66%, 44%);
+    box-shadow:3px 3px 10px #B6FFF4;
+}
+
+.content2{
+    margin-top:50px;
+    display:flex;
+    flex-direction:column;
+    align-items:Center;
+    padding:0px 350px;
+    justify-content:Center;
+    gap:20px;
+    text-align:center;
+}
+
+.content2 h1{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight:600;
+    font-size:35px;
+    color:hsl(210, 10%, 33%);
+}
+
+.content2 p{
+    font-weight:400;
+    font-size:21px;
+    color:hsl(201, 11%, 66%);
+}
+
+.desktop{
+    display:flex;
+    margin-top:60px;
+}
+
+.content3{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:0px 250px 0px 100px;
+    gap:60px;
+}
+
+.content3 h4{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight:700;
+    font-size:25px;
+    color:hsl(210, 10%, 33%);
+}
+
+.content3 p{
+    font-weight:300;
+    font-size:20px;
+    color:hsl(201, 11%, 66%);
+}
+
+.info{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.deviceImg{
+    display:grid;
+    place-items:center;
+    padding:80px 0px 0px 0px;
+}
+
+.content4{
+    margin-top:30px;
+    display:flex;
+    flex-direction:column;
+    align-items:Center;
+    padding:0px 350px;
+    justify-content:Center;
+    gap:20px;
+    text-align:center;
+}
+
+.content4 h1{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight:600;
+    font-size:35px;
+    color:hsl(210, 10%, 33%);
+}
+
+.content4 p{
+    font-weight:400;
+    font-size:21px;
+    color:hsl(201, 11%, 66%);
+}
+
+.page4{
+    display:flex;
+    padding:20px 200px;
+    text-align:center;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+    padding:20px;
+}
+
+.container img{
+    padding:20px;
+}
+
+.container h1{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight:700;
+    font-size:25px;
+    color:hsl(210, 10%, 33%);
+}
+
+.container p{
+    font-weight:300;
+    font-size:20px;
+    color:hsl(201, 11%, 66%);
+}
+
+.images{
+    margin-top:30px;
+    display:flex;
+    flex-direction:column;
+    padding:0px 100px 0px 100px;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logos{
+   display:flex;
+   gap:100px;
+}
+
+.logos img{
+    height:50%;
+    width:50%;
+}
+
+.page5{
+    margin:20px 0px 120px 0px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    gap:40px;
+}
+
+.footer{
+    padding:50px;
+    background: #EFEFEF91;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.footer-logo{
+     width:50px;
+     height:50px
+}
+
+ul{
+    list-style-type:none;
+    gap:30px;
+    display:flex;
+}
+
+.icons{
+    display:flex;
+    gap:20px;
+}
