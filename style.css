@@ -225,7 +225,7 @@ button{
 
 .footer{
     padding:50px;
-    background: #EFEFEF91;
+    background:	#dadada;
     display:flex;
     align-items:center;
     justify-content:space-around;
@@ -245,4 +245,150 @@ ul{
 .icons{
     display:flex;
     gap:20px;
+}
+
+
+@media (width <= 431px){
+    .hero{
+        padding-top:120px;
+        background:url("./images/bg-header-mobile.png") no-repeat;
+        background-size:100% auto;
+        width:100%;
+        gap:40px;
+    }
+
+    .content{
+        padding:0px 15px;
+    }
+
+    .content h1{
+        font-weight:600;
+        font-size:37px;
+        text-align:center;
+    }
+
+    .content p{
+        font-weight:400;
+        font-size:19px;
+    }
+
+    .buttons{
+        display:flex;
+        flex-direction:column;
+        gap:20px;
+    }
+
+    button{
+        border:none;
+        height:60px;
+        width:350px;
+        padding:20px 40px;
+        border-radius:30px;
+        font-size:18px;
+        font-weight:600;
+        color:white;
+    }
+
+    .content2{
+        margin-top:50px;
+        padding:0px 50px;
+    }
+
+    .content2 h1{
+        font-size:30px;
+    }
+    
+    .content2 p{
+        font-size:17px;
+    }
+    
+    .desktop{
+        display:flex;
+        flex-direction:column;
+        padding:0px 15px;
+    }
+
+    .content3{
+        margin-top:40px;
+        padding:20px;
+        gap:50px;
+    }
+
+    .content3 h4{
+        text-align:center;
+    }
+    
+    .content3 p{
+        text-align:center;
+    }
+    
+    .info{
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+    }
+
+    .deviceImg{
+        display:grid;
+        place-items:center;
+    }
+
+    .image1{
+        width:380px;
+    }
+    
+    .content4{
+        margin-top:20px;
+        padding:0px 20px;
+        gap:20px;
+        text-align:center;
+    }
+    
+    .content4 h1{
+        font-size:30px;
+    }
+    
+    .content4 p{
+        font-size:18px;
+    }
+
+    .page4{
+        display:flex;
+        flex-direction:column;
+        text-align:center;
+        padding:20px;
+    }
+    
+    .images{
+        display:flex;
+        flex-direction:column;
+        padding:20px;
+    }
+
+    .logos{
+        display:flex;
+        flex-direction:column;
+        gap:70px;
+        justify-content:center;
+        align-items:center;
+     }
+     .logos img{
+        height:70%;
+        width:70%;
+    }
+
+    .footer{
+        padding:50px;
+        display:flex;
+        flex-direction:column;
+        gap:50px;
+    }
+
+    ul{
+        list-style-type:none;
+        gap:30px;
+        display:flex;
+        align-items:Center;
+        flex-direction:column;
+    }
 }
